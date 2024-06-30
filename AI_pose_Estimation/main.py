@@ -104,7 +104,6 @@ def calculate_angle(a, b, c):
 # print(calculate_angle(shoulder, elbow, wrist))
 # calculate_angle()
 
-
 # angle tracking
 # with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as pose:
 #     while cap.isOpened():
@@ -153,7 +152,6 @@ def calculate_angle(a, b, c):
     
 #         if cv2.waitKey(10) & 0xFF == ord('q'): # if close or 'q' key pressed
 #             break
-
 #     cap.release()
 #     cv2.destroyAllWindows
 
