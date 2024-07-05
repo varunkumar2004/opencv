@@ -213,7 +213,8 @@ with mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5) as 
             landmark_list=results.pose_landmarks, 
             connections=mp_pose.POSE_CONNECTIONS,
             landmark_drawing_spec=mp_drawing.DrawingSpec(color=(245, 117, 66), thickness=2, circle_radius=2), # custom colors for dots
-            connection_drawing_spec=mp_drawing.DrawingSpec(color=(245, 66, 280), thickness=2, circle_radius=2)) # custom colors for connections
+            connection_drawing_spec=mp_drawing.DrawingSpec(color=(245, 66, 280), thickness=2, circle_radius=2)
+            ) # custom colors for connections
 
         cv2.imshow('Mediapipe feed', image)
     
